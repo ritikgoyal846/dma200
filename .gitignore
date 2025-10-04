@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Virtual env
+venv/
+.venv/
+ENV/
+env/
+
+# Django stuff
+db.sqlite3
+_media/
+staticfiles/
+_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local data files
+data/*.csv
+!data/universe.csv
+!data/nifty50.csv
+data/latest_scan.json
+data/latest_scan.csv
+
+# dotenv (if you add one later)
+.env
